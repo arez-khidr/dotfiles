@@ -1,0 +1,29 @@
+# Lazy.nvim
+lazy-lock.json
+
+# LazyVim defaults - exclude these to avoid conflicts with LazyVim repo
+.neoconf.json
+lazyvim.json
+LICENSE
+stylua.toml
+
+# Plugin data
+plugin/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+tt.*
+.tests
+foo.*
+debug
+.repro
+data
