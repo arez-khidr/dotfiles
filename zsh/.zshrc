@@ -13,6 +13,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Path to EZA installation
 export FPATH="</opt/homebrew/share/zsh/site-functions>/completions/zsh:$FPATH"
 
+# Path to bob nvim configuration 
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
+
 # add plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
